@@ -32,11 +32,11 @@ class Paperboy:
 tommy = Paperboy("Tommy")
 
 print(tommy.quota()) #  50
-print(tommy.deliver(101, 160)) # 17.5
+print(tommy.deliver(101, 160)) # 20
 print(tommy.earnings) # 17.5
-print(tommy.report()) # "I'm Tommy, I've delivered 60 papers and I've earned $17.5 so far!"
+print(tommy.report()) # "I'm Tommy, I've delivered 60 papers and I've earned $20.00 so far!"
 
 print(tommy.quota()) # 80
 print(tommy.deliver(1, 75)) # 16.75
 print(tommy.earnings)# 34.25
-print(tommy.report()) # "I'm Tommy, I've been delivered 135 papers and I've earned $34.25 so far!"
+print(tommy.report()) # "I'm Tommy, I've been delivered 135 papers and I've earned $36.75 so far!"
